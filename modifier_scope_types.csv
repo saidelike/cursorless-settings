@@ -53,3 +53,7 @@ type, type
 unit, unit
 value, value
 word, word
+
+
+# 2023-05-31 17:08:16 - New entries automatically added by cursorless
+instance, instance
