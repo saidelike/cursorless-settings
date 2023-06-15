@@ -7,3 +7,5 @@ link, link.text
 try, tryCatchStatement.body
 block, codeBlock.body
 image link, imageLink.name
+left column,leftColumn.body
+right column,rightColumn.body
