@@ -3,5 +3,6 @@ funk, functionDeclaration.name
 link, link.text
 image link, imageLink.name
 block, codeBlock.language
+pre block, preBlock.language
 left column,leftColumn.body
 right column,rightColumn.body

@@ -6,6 +6,7 @@ if else, ifElseStatement.consequence
 link, link.text
 try, tryCatchStatement.body
 block, codeBlock.body
+pre block, preBlock.body
 image link, imageLink.name
 left column,leftColumn.body
 right column,rightColumn.body
