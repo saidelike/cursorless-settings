@@ -39,7 +39,8 @@ rename, rename
 repack, rewrap
 reverse, reverseTargets
 scout, findInDocument
-scout all, findInWorkspace
+#scout all, findInWorkspace
+scout eve, findInWorkspace
 shuffle, randomizeTargets
 snippet, insertSnippet
 snippet make, generateSnippet
