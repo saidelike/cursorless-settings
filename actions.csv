@@ -3,7 +3,8 @@ bottom, scrollToBottom
 break point, toggleLineBreakpoint
 bring, replaceWithTarget
 call, callAsFunction
-carve, cutToClipboard
+cut, cutToClipboard
+#carve, cutToClipboard
 center, scrollToCenter
 change, clearAndSetSelection
 chuck, remove
