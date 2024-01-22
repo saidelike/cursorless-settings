@@ -2,25 +2,20 @@ Spoken form, Cursorless identifier
 backward, backward
 bounds, excludeInterior
 content, keepContentFilter
+core, interiorOnly
 empty, keepEmptyFilter
 every, every
 first, first
 forward, forward
 head, extendThroughStartOf
-inside, interiorOnly
 its, inferPreviousMark
 just, toRawSelection
-last, last
+final, last
 leading, leading
 next, next
-previous, previous
+last, previous
 slice, verticalRange
 tail, extendThroughEndOf
 trailing, trailing
-
-
-# 2023-12-12 18:13:54 - New entries automatically added by cursorless
 visible, visible
-
-# 2023-12-20 11:42:03 - New entries automatically added by cursorless
 grand, ancestor
