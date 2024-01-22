@@ -16,6 +16,7 @@ clone up, insertCopyBefore
 clone, insertCopyAfter
 
 cut, cutToClipboard
+#carve, cutToClipboard
 paste, pasteFromClipboard
 copy, copyToClipboard
 
@@ -24,7 +25,8 @@ move, moveToTarget
 swap, swapTargets
 
 chuck, remove
-clear, clearAndSetSelection
+#clear, clearAndSetSelection
+change, clearAndSetSelection
 
 crown, scrollToTop
 center, scrollToCenter
@@ -36,26 +38,33 @@ join, joinLines
 break, breakLine
 
 wrap, wrapWithPairedDelimiter
-switch, rewrap
+#switch, rewrap
+repack, rewrap
 
 sort, sortTargets
 shuffle, randomizeTargets
 reverse, reverseTargets
 
-scout all for, findInWorkspace
-scout for, findInDocument
+#scout all, findInWorkspace
+scout eve | scout if, findInWorkspace
+scout, findInDocument
 
-falling type, revealTypeDefinition
-falling, followLink
+#falling type, revealTypeDefinition
+type deaf, revealTypeDefinition
+#falling, followLink
+follow, followLink
 reference, showReferences
 
+#fold, foldRegion
 fold region, foldRegion
+#unfold, unfoldRegion
 unfold region, unfoldRegion
 
 hover, showHover
 inspect, showDebugHover
 
-breakpoint, toggleLineBreakpoint
+#breakpoint, toggleLineBreakpoint
+break point, toggleLineBreakpoint
 call, callAsFunction
 comment, toggleLineComment
 extract, extractVariable
@@ -66,7 +75,7 @@ quick fix, showQuickFix
 rename, rename
 
 # `revealDefinition` is already part of `followLink`
--define, revealDefinition
--snippet, insertSnippet
+define, revealDefinition
+snippet, insertSnippet
 -snippet make, generateSnippet
 

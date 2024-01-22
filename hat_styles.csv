@@ -3,14 +3,16 @@ red, red
 green, green
 blue, blue
 pink, pink
-gold, yellow
+#gold, yellow
+yellow, yellow
 navy, userColor1
-apricot, userColor2
+#apricot, userColor2
+sky, userColor2
 
-hat, curve
+curve, curve
 frame, frame
 hole, hole
-eye, eye
+#eye, eye
 ex, ex
 fox, fox
 play, play

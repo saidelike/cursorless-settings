@@ -1,13 +1,17 @@
 Spoken form, Cursorless identifier
 
-alpha, identifier
-argue, argumentOrParameter
+#alpha, identifier
+identifier, identifier
+arg, argumentOrParameter
+#argue, argumentOrParameter
 attribute, attribute
-block | graph, paragraph
+#block | graph, paragraph
+block, paragraph
 branch, branch
 call, functionCall
 callee, functionCallee
-car, character
+#car, character
+char, character
 cell, notebookCell
 class name, className
 class, class
@@ -19,7 +23,8 @@ end tag, xmlEndTag
 file, document
 funk name, functionName
 funk, namedFunction
-glyph, glyph
+# commenting glyph for now you to high DFA
+-glyph, glyph
 if state, ifStatement
 instance, instance
 item, collectionItem
@@ -27,11 +32,14 @@ key, collectionKey
 lambda, anonymousFunction
 line, line
 list, list
-location, url
-long paint, nonWhitespaceSequence
+#location, url
+link, url
+#long paint, nonWhitespaceSequence
+paint, nonWhitespaceSequence
 map, map
 name, name
-paint, boundedNonWhitespaceSequence
+#paint, boundedNonWhitespaceSequence
+short paint, boundedNonWhitespaceSequence
 regex, regularExpression
 section, section
 selector, selector
@@ -39,19 +47,21 @@ sentence, sentence
 start tag, xmlStartTag
 state, statement
 string, string
-sub, word
+#sub, word
+word | sub, word
 tags, xmlBothTags
 token, token
 type, type
 value, value
 
 access, private.fieldAccess
-subject, private.switchStatementSubject
 
 -chapter, chapter
 -environment, environment
 -five section, sectionLevelFive
 -four section, sectionLevelFour
+-three section, sectionLevelThree
+-two section, sectionLevelTwo
 -one section, sectionLevelOne
 -paragraph, namedParagraph
 -part, part
@@ -59,6 +69,4 @@ subject, private.switchStatementSubject
 -subparagraph, subParagraph
 -subsection, subSection
 -subsubsection, subSubSection
--three section, sectionLevelThree
--two section, sectionLevelTwo
 -unit, unit

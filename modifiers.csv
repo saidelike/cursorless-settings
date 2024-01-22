@@ -2,7 +2,8 @@ Spoken form, Cursorless identifier
 backward, backward
 bounds, excludeInterior
 content, keepContentFilter
-core, interiorOnly
+#core, interiorOnly
+inside, interiorOnly
 empty, keepEmptyFilter
 every, every
 first, first
@@ -10,10 +11,12 @@ forward, forward
 head, extendThroughStartOf
 its, inferPreviousMark
 just, toRawSelection
-final, last
+#final, last
+last, last
 leading, leading
 next, next
-last, previous
+#last, previous
+previous, previous
 slice, verticalRange
 tail, extendThroughEndOf
 trailing, trailing

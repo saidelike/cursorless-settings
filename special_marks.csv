@@ -1,6 +1,8 @@
 Spoken form, Cursorless identifier
 source, previousSource
-last, previousTarget
+#last, previousTarget
+that, previousTarget
+#this, currentSelection
 this | dis, currentSelection
 down, lineNumberRelativeDown
 row, lineNumberModulo100

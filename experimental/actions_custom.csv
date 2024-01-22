@@ -6,15 +6,19 @@ reflow, rewrap.rewrapComment
 undo, undo
 redo, redo
 
-# Git
-git add, git.stageSelectedRanges
+# Git commit
+#git add, git.stageSelectedRanges
+git stage, git.stageSelectedRanges
 git reset, git.unstageSelectedRanges
 git revert, git.revertSelectedRanges
-git accept, merge-conflict.accept.selection
+
+# Git merge
+accept, merge-conflict.accept.selection
+#accept both, merge-conflict.accept.both
 
 # Emmet / HTML
-rename tag, editor.emmet.action.updateTag
-split tag | join tag, editor.emmet.action.splitJoinTag
+#rename tag, editor.emmet.action.updateTag
+#split tag | join tag, editor.emmet.action.splitJoinTag
 
 # Notebook
-run cell, notebook.cell.executeAndFocusContainer
+#run cell, notebook.cell.executeAndFocusContainer
