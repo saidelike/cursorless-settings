@@ -3,6 +3,8 @@ Spoken form, VSCode command
 increment, andreas.increment
 decrement, andreas.decrement
 reflow, rewrap.rewrapComment
+
+# useful if you want to undo/redo into another editor split
 undo, undo
 redo, redo
 
