@@ -76,6 +76,6 @@ rename, rename
 
 # `revealDefinition` is already part of `followLink`
 define, revealDefinition
-snippet, insertSnippet
+-snippet, insertSnippet
 -snippet make, generateSnippet
 
