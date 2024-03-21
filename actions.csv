@@ -74,7 +74,8 @@ extract, extractVariable
 format | form, applyFormatter
 highlight, highlight
 phones, nextHomophone
-quick fix, showQuickFix
+#quick fix, showQuickFix
+fix, showQuickFix
 rename, rename
 
 # `revealDefinition` is already part of `followLink`
